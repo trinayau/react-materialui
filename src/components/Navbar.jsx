@@ -6,7 +6,7 @@ import { useState } from "react";
 const StyledToolbar = styled(Toolbar)({
     display: "flex",
     justifyContent: "space-between",
-    backgroundColor: "#d6ccc2"
+    backgroundColor: "pink"
 })
 
 const Search = styled("div")(({theme})=>({
@@ -49,10 +49,10 @@ const Navbar = () => {
         <Search>
         <InputBase placeholder="Search"/></Search>
         <Icons>
-            <Badge badgeContent={4} color="primary">
+            <Badge badgeContent={4} color="warning">
             <Mail />
             </Badge>
-            <Badge badgeContent={2} color="primary">
+            <Badge badgeContent={2} color="warning">
             <Notifications />
             </Badge>
             <Avatar sx={{width:30, height:30}}src="https://images.pexels.com/photos/732425/pexels-photo-732425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
