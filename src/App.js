@@ -1,10 +1,10 @@
-import { Box, Container, Stack } from '@mui/material';
-import {Feed, Sidebar, Rightbar} from './components';
+import { Box, Stack } from '@mui/material';
+import {Feed, Sidebar, Rightbar, Navbar} from './components';
 
 function App() {
   return (
     <Box>
-    {/* navbar */}
+    <Navbar/>
     <Stack direction="row" spacing={10} justifyContent="space-evenly">
     <Sidebar/>
     <Feed/>
