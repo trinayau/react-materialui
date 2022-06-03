@@ -44,7 +44,7 @@ const Navbar = () => {
     return (
     <AppBar position="sticky">
         <StyledToolbar>
-        <Typography variant="h6" sx={{display:{xs:"none", sm:"block"}}}>Trina.io</Typography>
+        <Typography variant="h6" sx={{display:{xs:"none", sm:"block"}}}> 🐶 Doggos.io</Typography>
         <PetsIcon sx={{display:{xs:"block",sm:"none"}}}/>
         <Search>
         <InputBase placeholder="Search"/></Search>
