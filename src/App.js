@@ -1,11 +1,16 @@
+import { Box, Container, Stack } from '@mui/material';
+import {Feed, Sidebar, Rightbar} from './components';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      Hi
-      </header>
-    </div>
+    <Box>
+    {/* navbar */}
+    <Stack direction="row" spacing={10} justifyContent="space-evenly">
+    <Sidebar/>
+    <Feed/>
+    <Rightbar/>
+  </Stack>
+    </Box>
   );
 }
 
